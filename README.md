@@ -1,5 +1,7 @@
 # Laravel Authorization Plus
 
+[![Build Status](https://travis-ci.org/devonblzx/laravel-auth-plus.svg?branch=master)](https://travis-ci.org/devonblzx/laravel-auth-plus)
+
 Exposes Gate Functionality to a full ACL with user roles, user groups, and resources. Authorization plus empowers you to use subresources to provide fine grained control over access of specific parts of resources.
 
 ## Why is this needed?
