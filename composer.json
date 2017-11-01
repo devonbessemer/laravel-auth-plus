@@ -1,0 +1,33 @@
+{
+  "name": "devonblzx/laravel-auth-plus",
+  "description": "Extends authorization in Laravel, enabling user roles, user groups, and fine grained resource management from a database.",
+  "keywords": [
+    "laravel",
+    "acl",
+    "groups",
+    "users",
+    "fine"
+  ],
+  "homepage": "https://github.com/virtualcomplete/laravel-auth-plus",
+  "require": {
+    "php": "~7.0",
+    "laravel/framework": "~5.5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Devon Bessemer",
+      "email": "devon.b@virtualcomplete.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Devon\\AuthPlus\\": "src/"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.5",
+    "phpunit/phpunit": "^6.3",
+    "orchestra/database": "^3.5"
+  }
+}
